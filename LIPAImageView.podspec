@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LIPAImageView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Rounded async imageview downloader based on SDWebImage."
   s.homepage     = "https://github.com/liyoro/LIPAImageView"
   s.license      = { :type => "MIT" }
