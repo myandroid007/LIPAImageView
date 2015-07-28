@@ -87,7 +87,7 @@ public class LIPAImageView: UIView {
         self.addGestureRecognizer(tapRecognizer) 
     }
     
-    private func handleSingleTap(sender: AnyObject) {
+    func handleSingleTap(sender: AnyObject) {
         if (self.delegate != nil) {
             self.delegate.paImageViewDidTapped(self)
         }
